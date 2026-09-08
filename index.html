@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>NovaStore | Product Showcase</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                NovaStore
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-heading">
+                QUALITY PRODUCTS. SIMPLE SHOPPING.
+            </p>
+
+            <h1>
+                Welcome to NovaStore
+            </h1>
+
+            <p>
+                Discover carefully selected products designed
+                to make your everyday life better.
+            </p>
+
+            <a href="#products" class="hero-button">
+                Explore Products
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+
+        <div class="section-heading">
+
+            <p>OUR COLLECTION</p>
+
+            <h2>
+                Featured Products
+            </h2>
+
+        </div>
+
+
+        <div class="product-container">
+
+
+            <!-- Product 1 -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+                        alt="Wireless Headphones">
+                </div>
+
+                <div class="product-details">
+
+                    <h3>
+                        Wireless Headphones
+                    </h3>
+
+                    <p>
+                        High-quality wireless headphones with
+                        comfortable design and clear sound.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <span class="price">
+                            ₹2,499
+                        </span>
+
+                        <button class="contact-button"
+                                onclick="showProductMessage('Wireless Headphones')">
+                            Contact
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 2 -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+                        alt="Running Shoes">
+                </div>
+
+                <div class="product-details">
+
+                    <h3>
+                        Running Shoes
+                    </h3>
+
+                    <p>
+                        Lightweight and comfortable running shoes
+                        suitable for daily workouts.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <span class="price">
+                            ₹1,999
+                        </span>
+
+                        <button class="contact-button"
+                                onclick="showProductMessage('Running Shoes')">
+                            Contact
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 3 -->
+            <div class="product-card">
+
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
+                        alt="Smart Watch">
+                </div>
+
+                <div class="product-details">
+
+                    <h3>
+                        Smart Watch
+                    </h3>
+
+                    <p>
+                        Modern smartwatch with fitness tracking
+                        and everyday activity monitoring.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <span class="price">
+                            ₹3,499
+                        </span>
+
+                        <button class="contact-button"
+                                onclick="showProductMessage('Smart Watch')">
+                            Contact
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+
+        <div class="about-content">
+
+            <div>
+
+                <p class="section-label">
+                    ABOUT NOVASTORE
+                </p>
+
+                <h2>
+                    Products Selected With You in Mind
+                </h2>
+
+            </div>
+
+            <p>
+                NovaStore is a small business focused on providing
+                reliable and affordable products to customers.
+                We carefully select products based on quality,
+                usability and value.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+
+        <div class="contact-content">
+
+            <p class="section-label">
+                GET IN TOUCH
+            </p>
+
+            <h2>
+                Interested in a Product?
+            </h2>
+
+            <p>
+                Click the button below to contact our team.
+            </p>
+
+            <button id="mainContactButton">
+                Contact Us
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 NovaStore. All Rights Reserved.
+        </p>
+
+        <p>
+            Small Business Product Showcase
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
